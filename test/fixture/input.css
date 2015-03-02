@@ -1,0 +1,12 @@
+.foo {
+  background: blue;
+}
+.bar {
+  background: red url(./one.svg) top left, green url(./two.svg) 0 100%;
+}
+.baz {
+  background-image: url(./three.svg);
+}
+.quux {
+  filter: url(./blur.svg#blur);
+}

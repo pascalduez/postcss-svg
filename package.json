@@ -1,0 +1,61 @@
+{
+  "name": "postcss-svg",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "css",
+    "svg",
+    "postcss",
+    "postcss-plugins",
+    "inline",
+    "base64",
+    "assets"
+  ],
+  "author": {
+    "name": "Pascal Duez",
+    "url": "https://github.com/pascalduez"
+  },
+  "homepage": "https://github.com/pascalduez/postcss-svg",
+  "bugs": "https://github.com/pascalduez/postcss-svg/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pascalduez/postcss-svg.git"
+  },
+  "license": {
+    "type": "unlicence",
+    "url": "http://unlicense.org"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "index.js",
+    "README.md",
+    "UNLICENSE"
+  ],
+  "dependencies": {
+    "balanced-match": "^0.2.0",
+    "base-64": "^0.1.0",
+    "cheerio": "^0.18.0",
+    "es6-denodeify": "^0.1.1",
+    "es6-promise": "^2.0.1",
+    "postcss": "^4.0.6",
+    "simplify-js": "^1.2.1",
+    "svgo": "^0.5.0",
+    "urldata": "0.0.1",
+    "utf8": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.7",
+    "babel": "^4.6.4",
+    "babel-eslint": "^1.0.12",
+    "browser-sync": "^2.2.1",
+    "eslint": "^0.15.1",
+    "faucet": "0.0.1",
+    "gulp": "^3.8.11",
+    "gulp-postcss": "^4.0.3",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "make dist test"
+  }
+}
