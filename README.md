@@ -13,7 +13,7 @@ Work in progress!
 
 ## Credits
 
-* [Pascal Duez](https://twitter.com/pascalduez)
+* [Pascal Duez](https://github.com/pascalduez)
 
 
 ## Licence
